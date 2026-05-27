@@ -1,0 +1,13 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class LaserSpawnCircle : MonoBehaviour
+{
+    
+    // Start is called before the first frame update
+    void Start()
+    {
+         gameObject.transform.position = new Vector3(443, 200, 0); 
+    }
+}
